@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="script.js" defer></script>
+<style>
+	.hidden{
+		display: none;
+	}
+</style>
+</head>
+<body>
+
+<h2>JavaScript in Body</h2>
+<pre>
+<label for="red" style="font-size: large;">
+<input type="radio" name="color" id="red" value="red" >Red
+</label>
+<label for="blue" style="font-size: large;">
+<input type="radio" name=color id="blue" value="blue" >blue
+</label>
+<label for="green" style="font-size: large;">
+<input type="radio" name="color" id="green" value="green" >green
+</label>
+<label for="yellow" style="font-size: large;">
+<input type="radio" name=color id="yellow" value="yellow" >yellow
+</label>
+<label for="black" style="font-size: large;">
+<input type="radio" name="color" id="black" value="black" >black
+</label>
+<label for="purple" style="font-size: large;">
+<input type="radio" name=color id="purple" value="violet" >purple
+</label>
+</pre>
+
+<input type="checkbox" onchange="getElementById('demo').classList.toggle('hidden')">turn on/off</input>
+
+
+<p id="demo" ></p>
+
+
+
+
+
+</body>
+</html> 
